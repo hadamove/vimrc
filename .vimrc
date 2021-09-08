@@ -117,12 +117,12 @@ set expandtab           " Use spaces when tabbing
 set showtabline=2
 
 " Uncomment this to set dark-mode depending on the time of the day
-"let hours = strftime("%H")
-"if hours > 8 && hours < 18
+" let hours = strftime("%H")
+" if hours > 8 && hours < 18
 set background=dark
-"else
-"set background=light
-"endif
+" else
+" set background=light
+" endif
 
 " Set color scheme
 colorscheme gruvbox
