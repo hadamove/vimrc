@@ -104,6 +104,7 @@ let g:formatters_python = ['black']
 " Vim configuration
 " ------------------------------------------------------------
 
+set clipboard=unnamed   " Use copy to cliboard
 set nu                  " Enable line numbers
 syntax on               " Enable synax highlighting
 set incsearch           " Enable incremental search
